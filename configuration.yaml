@@ -69,6 +69,10 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 
+nest:
+  client_id: 6dd4713f-4b77-4bd6-9e90-ee4cff32efa6
+  client_secret: g0yyk87pxydtnwuv06xHF5dB9
+
 panel_iframe:
   configurator:
     title: Configurator
