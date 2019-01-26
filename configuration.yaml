@@ -70,8 +70,8 @@ automation: !include automations.yaml
 script: !include scripts.yaml
 
 http:
-  api_password: !secret duck_dns_token
-  base_url: !secret duck_dns_domain
+  api_password: YOUR_PASSWORD
+  base_url: roxannalane.duckdns.org
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
 
@@ -86,4 +86,4 @@ panel_iframe:
     url: http://hassio.local:3218
 
 zwave:
-  usb_path: \.\COM3
+  usb_path: \.\COM5
