@@ -69,6 +69,12 @@ group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
 
+http:
+  api_password: !secret duck_dns_token
+  base_url: !secret duck_dns_domain
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem
+
 nest:
   client_id: !secret nest_id
   client_secret: !secret nest_secret
